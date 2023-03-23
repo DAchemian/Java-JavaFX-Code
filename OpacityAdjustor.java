@@ -63,7 +63,7 @@ public class OpacityAdjustor extends Application {
         StackPane stackPane = new StackPane(imageView, sliderBox);
         stackPane.setPadding(new Insets(20));
 
-        Scene scene = new Scene(stackPane, 500, 500);
+        Scene scene = new Scene(stackPane, 1000, 1000);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Image Opacity");
         primaryStage.show();
